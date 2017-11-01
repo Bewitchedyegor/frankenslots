@@ -1,0 +1,53 @@
+@media (max-width: 992px) {
+    content {
+        padding-top: 20px;
+    }
+    h1 {
+        display: inline-block;
+    }
+    .monsterOnly {
+        display: block;
+    }
+    .monster {
+        display: none!important;
+    }
+}
+@media (max-width: 855px) {
+    content {
+        text-align: center;
+    }
+    .monster, .lab, .monsterOnly {
+        display: none!important;
+    }
+    .code {
+        display: inline-block;
+    }
+    .hundred, .fiveHundred {
+        font-size: 75.18px;
+    }
+    .plus, .get {
+        line-height: 1;
+    }
+    .get {
+        text-align: right;
+    }
+    .playNow {
+        display: inline-block;
+    }
+}
+@media (max-width: 516px) {
+    .step2 {
+        margin-right: 0;
+    }
+}
+@media (max-width: 320px) {
+    .step1, .step2, .step3 {
+        margin: 0 0 19px;
+    }
+    .get {
+        text-align: left;
+    }
+    .upTo {
+        width: 100%;
+    }
+}

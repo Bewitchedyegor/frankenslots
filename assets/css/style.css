@@ -1,0 +1,216 @@
+/* General styles */
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background: #000;
+}
+h1 {
+    display: none;
+    text-align: center;
+}
+
+/* main content */
+content {
+    width: 100%;
+    min-height: 786px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 37.14px;
+    padding-top: 106px;
+}
+.splash, .lab, .monster, .monsterOnly {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+.splash {
+    background: url(../img/splash.png) no-repeat center;
+}
+.lab {
+    background: url(../img/lab.png) no-repeat right, url(../img/splash.png) no-repeat center;
+}
+.monster {
+    background: url(../img/monster.png) no-repeat right, url(../img/lab.png) no-repeat right, url(../img/splash.png) no-repeat center;
+}
+.monsterOnly {
+    background: url(../img/monsterOnly.png) no-repeat right;
+}
+.getOffer, .freeChip {
+    display: inline-block;
+}
+.get {
+    line-height: 0;
+    display: block;
+    padding-left: 58px;
+}
+.offer, .hundred, .fiveHundred {
+    font-size: 150.83px;
+    font-weight: 700;
+    background-color: #09ceff;
+    background-image: -moz-linear-gradient(top,  #09ceff 0%, #9ae8ff 31%, #09ceff 51%, #0377c7 100%);
+    background-image: -webkit-linear-gradient(top,  #09ceff 0%,#9ae8ff 31%,#09ceff 51%,#0377c7 100%);
+    background-image: linear-gradient(to bottom,  #09ceff 0%,#9ae8ff 31%,#09ceff 51%,#0377c7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09ceff', endColorstr='#0377c7',GradientType=0 );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: block;
+}
+.offer {
+    line-height: 153px;
+}
+.free, .chip {
+    text-transform: uppercase;
+    font-size: 67.53px;
+    font-weight: 700;
+    background-color: #c4c4c4;
+    background-image: -moz-linear-gradient(top,  #c4c4c4 0%, #eaeaea 35%, #aaaaaa 47%, #e7e7e7 54%, #e4e4e4 78%, #a4a4a4 100%);
+    background-image: -webkit-linear-gradient(top,  #c4c4c4 0%,#eaeaea 35%,#aaaaaa 47%,#e7e7e7 54%,#e4e4e4 78%,#a4a4a4 100%);
+    background-image: linear-gradient(to bottom,  #c4c4c4 0%,#eaeaea 35%,#aaaaaa 47%,#e7e7e7 54%,#e4e4e4 78%,#a4a4a4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#a4a4a4',GradientType=0 );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: block;
+    line-height: 61px;
+}
+.code {
+    font-size: 22px;
+    padding: 9px 13px;
+    border: 1px solid #00deff;
+    display: table;
+    margin-bottom: 38px;
+    background: rgba(0,0,0,0.6);
+}
+.useBonusCode {
+    color: #00e6ff;
+}
+.bonusCod {
+    text-transform: uppercase;
+}
+.plus {
+    line-height: 0;
+    display: block;
+    text-shadow: 1px 1px rgba(0,0,0,0.75);
+}
+.hundred, .fiveHundred {
+    font-size: 91.18px;
+    font-weight: 700;
+    line-height: 110px;
+    display: inline-block;
+}
+.upTo {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    width: 47px;
+    line-height: 34px;
+    text-shadow: 1px 1px rgba(0,0,0,0.75);
+}
+.playNow {
+    font-size: 36.45px;
+    font-weight: 900;
+    color: #00e6ff;
+    padding: 10.5px 54px;
+    border: 1px solid #00c7f9;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.6);
+    display: block;
+}
+.steps {
+    margin-top: 30px;
+}
+.steps h2 {
+    font-size: 32px;
+    font-weight: 100;
+    color: #00e6ff;
+    border-bottom: 1px solid #00e6ff;
+    width: 68px;
+    padding-bottom: 7px;
+    margin: 0 0 9px;
+    display: inline-block;
+}
+.steps p {
+    font-size: 15px;
+}
+.step1, .step2, .step3 {
+    border: 2px solid #00c7f9;
+    border-radius: 90px;
+    height: 135px;
+    width: 135px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 19px;
+    background: rgba(0,0,0,0.6);
+}
+.step3 {
+    margin-right: 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    border-top: 3px solid #00c1f6;
+    padding: 14px 0 13px 0;
+    margin-top: 20px;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 0%, #151515 76%, #222222 100%);
+    background: -webkit-linear-gradient(top, #000000 0%,#151515 76%,#222222 100%);
+    background: linear-gradient(to bottom, #000000 0%,#151515 76%,#222222 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#222222',GradientType=0 );
+}
+
+.partners {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.partners li {
+    display: inline-block;
+    padding-right: 27px;
+}
+.partners li:last-child {
+    padding-right: 0;
+}
+.partners li i {
+    height: 24px;
+    display: block;
+}
+.visa i {
+    background: url(../img/partners.png) no-repeat 1px;
+    width: 50px;
+}
+.electron i {
+    background: url(../img/partners.png) no-repeat -78px;
+    width: 38px;
+}
+.masterCard i {
+    background: url(../img/partners.png) no-repeat -143px;
+    width: 42px;
+}
+.maestro i {
+    background: url(../img/partners.png) no-repeat -212px;
+    width: 42px;
+}
+.neteller i {
+    background: url(../img/partners.png) no-repeat -283px;
+    width: 86px;
+}
+.skrill i {
+    background: url(../img/partners.png) no-repeat -398px;
+    width: 47px;
+}
+.paysafe i {
+    background: url(../img/partners.png) no-repeat -474px;
+    width: 110px;
+}
